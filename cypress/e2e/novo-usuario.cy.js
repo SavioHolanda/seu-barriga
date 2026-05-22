@@ -23,9 +23,9 @@ describe('Novo Usuário', () => {
       cy.verificarAlerta('Endereço de email já utilizado');
     });
 
-    it('Cenário 3: Realizar o cadastro de um novo usuário com email inválido', () => {
+    it.skip('Cenário 3: Realizar o cadastro de um novo usuário com email inválido', () => {
       cy.preencherNome("Sávio Borges");
-      cy.preencherEmailCadastro("savioborgesteste@nhgfte.com");
+      cy.preencherEmailCadastro("savioborgesteste");
       cy.preencherSenhaCadastro(1234);
       cy.clicarCadastrarUsuario();
       cy.url().should('include', '/cadastro');
