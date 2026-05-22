@@ -51,7 +51,7 @@ describe('Novo Usuário', () => {
       cy.contains('.alert', 'Email é um campo obrigatório');
     });
 
-    it('Cenário 5: Realizar o cadastro com a senha vazia', () => {
+    it('Cenário 6: Realizar o cadastro com a senha vazia', () => {
       cy.preencherNome("Sávio Borges");
       cy.preencherEmailCadastro("savioborgesteste@teste.com");
       cy.clicarCadastrarUsuario();
