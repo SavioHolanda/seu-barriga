@@ -1,0 +1,20 @@
+# Cypress
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
+cypress/cache/
+cypress.env.json
+
+# Dependências
+node_modules/
+
+# Arquivos de lock (opcional)
+# mantemos o `package-lock.json` no repositório para reprodutibilidade
+yarn.lock
+
+# Configurações de sistema/IDE
+.DS_Store
+.idea/
+.vscode/
+.gitignore
