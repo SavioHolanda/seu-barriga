@@ -9,7 +9,7 @@ cypress.env.json
 # Dependências
 node_modules/
 
-# Arquivos de lock (opcional)
+# Arquivos de lock
 yarn.lock
 
 # Configurações de sistema/IDE
