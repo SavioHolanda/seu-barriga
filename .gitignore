@@ -10,7 +10,6 @@ cypress.env.json
 node_modules/
 
 # Arquivos de lock (opcional)
-# mantemos o `package-lock.json` no repositório para reprodutibilidade
 yarn.lock
 
 # Configurações de sistema/IDE
